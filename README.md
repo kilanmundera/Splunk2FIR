@@ -1,6 +1,6 @@
 # Splunk2FIR
 
-The **Splunk2FIR** Splunk application provides a custom command that integrates with FIR (Fast Incident Response) to automatically create nuggets based on Splunk search results. It leverages a Python script to send data from Splunk to FIR.
+The **Splunk2FIR** Splunk application provides a custom command that integrates with [FIR (Fast Incident Response)](https://github.com/certsocietegenerale/FIR) to automatically create nuggets based on Splunk search results. It leverages a Python script to send data from Splunk to FIR.
 
 ## Features
 - Creates nuggets in FIR using search results from Splunk.
