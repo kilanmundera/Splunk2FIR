@@ -1,0 +1,26 @@
+[app/ui]
+owner = admin
+version = 9.0.5
+modtime = 1727006325.785178000
+
+[app/launcher]
+owner = admin
+version = 9.0.5
+modtime = 1727006325.787868000
+
+[app/package/check_for_updates]
+version = 9.0.5
+modtime = 1727006325.789770000
+
+[]
+access = read : [ * ], write : [ * ]
+export = system
+version = 9.0.5
+modtime = 1727009551.778952000
+
+[macros/splunk2fir%282%29]
+access = read : [ * ]
+export = system
+owner = admin
+version = 9.0.5
+modtime = 1727011205.243338000
