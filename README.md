@@ -10,7 +10,7 @@ The **Splunk2FIR** Splunk application provides a custom command that integrates 
 ---
 ## Installation and Configuration
 ### 1. Download and Install the App:
-- Download the app package (`Splunk2FIR.spl`).
+- Download the app package (`Splunk2FIR.spl`) from the [Releases page](https://github.com/kilanmundera/Splunk2FIR/releases).
 - Log in to your Splunk instance and navigate to **Apps > Manage Apps**.
 - Click **Install app from file**, then select the `.spl` file and upload it.
 - Click **Install** to complete the process.
