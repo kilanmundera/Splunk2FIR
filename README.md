@@ -8,12 +8,17 @@ The **Splunk2FIR** Splunk application provides a custom command that integrates 
 - Automatically imports _time and _raw fields from Splunk into FIR for accurate timestamping, detailed logging, and seamless integration of the logs into the Timeline of the incident in FIR—allowing for better incident tracking and analysis. 
 
 ---
+## Installation and Configuration
+### 1. Download and Install the App:
+- Download the app package (`Splunk2FIR.spl`).
+- Log in to your Splunk instance and navigate to **Apps > Manage Apps**.
+- Click **Install app from file**, then select the `.spl` file and upload it.
+- Click **Install** to complete the process.
 
-## Configuration
-### 1. Python Script (`splunk2fir.py`)
-#### 1. Setting FIR URL and API Token
+### 2. Setting FIR URL and API Token
 The `splunk2fir.py` script is located in the app's `bin/` directory. This script handles the communication between Splunk and FIR, sending data via HTTP POST requests.
-You must set the FIR instance URL and the API token.
+
+You must set the FIR instance URL and the API token :
 
 - **FIR URL**: Modify the `FIR_NUGGETS_URL` variable to point to your FIR instance's API endpoint.
 - **API Token**: Update the `API_TOKEN` variable with your FIR API token.
