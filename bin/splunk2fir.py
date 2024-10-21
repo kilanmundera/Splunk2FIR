@@ -68,7 +68,9 @@ def main():
         if not raw_data or not time_unix or not fir_incident_id:
             logging.error("Missing required data.")
             return
-        
+
+        # Handle possible float timestamp from Splunk
+        time_unix = float(time_unix)  # Convert to float first
         # Convert Unix timestamp to human-readable format
         event_time = datetime.datetime.utcfromtimestamp(int(time_unix)).strftime('%Y-%m-%d %H:%M:%S')
         
