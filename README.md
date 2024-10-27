@@ -7,7 +7,7 @@ The **Splunk2FIR** Splunk application provides a custom command that integrates 
 ## Features
 - Creates nuggets in FIR using search results from Splunk.
 - Includes a custom macro for easier integration into Splunk queries.
-- Automatically imports _time and _raw fields from Splunk into FIR for accurate timestamping, detailed logging, and seamless integration of the logs into the Timeline of the incident in FIR—allowing for better incident tracking and analysis. 
+- Automatically imports `_time` and `_raw` fields from Splunk into FIR for accurate timestamping, detailed logging, and seamless integration of the logs into the Timeline of the incident in FIR—allowing for better incident tracking and analysis. 
 
 ---
 ## Installation and Configuration
